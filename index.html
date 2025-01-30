@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Мой первый сайт</title>
 	<link rel="stylesheet" href="styre.css">
+	<link rel="stylesheet" href="style.min.css">
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -14,8 +15,12 @@
 	</header>
 	<main>
 		<p>Это мой first сайт</p>
-		<img src="images/logo.png" alt="Логотип">
+		<img src="images/logo.webp" alt="Логотип">
 	</main>
+	<picture>
+    <source srcset="images/logo.webp" type="image/webp">
+    <img src="images/logo.webp" alt="Фото 1" loading="lazy">
+	</picture>
 	<footer>
 		<p>2025 Мой сайт</p>
 	</footer>
